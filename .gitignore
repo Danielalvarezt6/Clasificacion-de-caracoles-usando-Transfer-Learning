@@ -1,0 +1,12 @@
+# Modelos entrenados (>100 MB, límite de GitHub)
+*.keras
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entornos
+.env
+venv/
