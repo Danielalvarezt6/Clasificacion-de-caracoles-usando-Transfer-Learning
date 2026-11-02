@@ -1,4 +1,4 @@
-name: caracoles
+name: caracoles-rocm
 channels:
   - conda-forge
   - defaults
@@ -138,6 +138,9 @@ dependencies:
   - zstd=1.5.7=hb78ec9c_7
   - pip:
       - absl-py==2.5.1
+      - albucore==0.0.24
+      - albumentations==2.0.8
+      - annotated-types==0.8.0
       - astunparse==1.6.3
       - certifi==2026.10.19
       - charset-normalizer==3.5.2
@@ -158,18 +161,25 @@ dependencies:
       - ml-dtypes==0.6.0
       - namex==0.1.0
       - numpy==2.1.3
+      - opencv-python-headless==5.0.0.93
       - opt-einsum==3.4.0
       - optree==0.20.0
       - protobuf==5.29.6
+      - pydantic==2.14.2
+      - pydantic-core==2.50.2
       - pygments==2.21.0
+      - pyyaml==6.0.3
       - requests==2.34.2
       - rich==15.0.0
+      - simsimd==6.5.16
+      - stringzilla==5.3.2
       - tensorboard==2.20.0
       - tensorboard-data-server==0.7.2
       - tensorflow-io-gcs-filesystem==0.37.1
       - tensorflow-rocm==2.20.0.dev0+selfbuilt
       - termcolor==3.3.0
       - typing-extensions==4.16.0
+      - typing-inspection==0.4.4
       - urllib3==2.8.0
       - werkzeug==3.1.9
       - wrapt==2.5.1
